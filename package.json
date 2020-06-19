@@ -1,0 +1,22 @@
+{
+  "name": "@4a/baidu-map",
+  "version": "0.1.0",
+  "description": "百度地图SDK",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gavinning/baidu-map.git"
+  },
+  "author": "gavinning",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gavinning/baidu-map/issues"
+  },
+  "homepage": "https://github.com/gavinning/baidu-map#readme",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
