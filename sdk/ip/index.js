@@ -6,7 +6,7 @@ module.exports = (ak, ip) => {
         .then(response => response.data)
         .then(data => {
             if (0 !== Number(data.status)) {
-                throw new Error(code[data.status] || data.status)
+                throw new Error(`${data.status}:${data.message}`)
             }
             return data
         })
